@@ -1,0 +1,21 @@
+{
+  "name": "recipe-book",
+  "version": "1.0.0",
+  "description": "a recipe book challenge for Lambda School Data Modeling module",
+  "main": "index.js",
+  "repository": "https://github.com/zimashima/node-db4-challenge.git",
+  "author": "Mashima Button",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.8",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
