@@ -5,6 +5,6 @@ module.exports = {
 }
 
 function getInstructions(recipe_id){
-    return db("instructions").where("recipe_id", recipe_id)
+    return db("instructions").where("recipe_id", recipe_id).first()
 }
 
